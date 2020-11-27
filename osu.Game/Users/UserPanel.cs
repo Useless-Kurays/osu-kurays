@@ -88,7 +88,7 @@ namespace osu.Game.Users
 
         public MenuItem[] ContextMenuItems => new MenuItem[]
         {
-            new OsuMenuItem("View Profile", MenuItemType.Highlighted, ViewProfile),
+            new OsuMenuItem("Смотреть профиль", MenuItemType.Highlighted, ViewProfile),
         };
     }
 }

@@ -16,18 +16,18 @@ namespace osu.Game.Users
 
         public class Modding : UserActivity
         {
-            public override string Status => "Modding a map";
+            public override string Status => "Делаем мапу";
             public override Color4 GetAppropriateColour(OsuColour colours) => colours.PurpleDark;
         }
 
         public class ChoosingBeatmap : UserActivity
         {
-            public override string Status => "Choosing a beatmap";
+            public override string Status => "Выбираем мапу";
         }
 
         public class MultiplayerGame : UserActivity
         {
-            public override string Status => "Playing with others";
+            public override string Status => "Играем с челиками";
         }
 
         public class Editing : UserActivity
@@ -39,7 +39,7 @@ namespace osu.Game.Users
                 Beatmap = info;
             }
 
-            public override string Status => @"Editing a beatmap";
+            public override string Status => @"Редактируем мапу";
         }
 
         public class SoloGame : UserActivity
@@ -59,17 +59,17 @@ namespace osu.Game.Users
 
         public class Spectating : UserActivity
         {
-            public override string Status => @"Spectating a game";
+            public override string Status => @"Наблюдаем за челиком";
         }
 
         public class SearchingForLobby : UserActivity
         {
-            public override string Status => @"Looking for a lobby";
+            public override string Status => @"Ищем лобби";
         }
 
         public class InLobby : UserActivity
         {
-            public override string Status => @"In a multiplayer lobby";
+            public override string Status => @"Сидим в лобби";
 
             public readonly Room Room;
 
